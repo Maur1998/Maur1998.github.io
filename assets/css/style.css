@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.education .row {
+    background-color: rgb(49, 49, 48);
+    list-style: none;
+}
+
+.list-item {
+    list-style: none;
+}
