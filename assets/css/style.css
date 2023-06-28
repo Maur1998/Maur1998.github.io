@@ -73,6 +73,16 @@ body {
     font-size: 3em;
 }
 
+.card{
+    background-color: lightgray;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /*Footer*/
 .footer {
     background-color: #0d3562;
