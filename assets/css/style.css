@@ -27,3 +27,32 @@
 .experience-header{
     font-size: 3em;
 }
+
+.footer {
+    line-height: 3em;
+    color: white;
+    text-align: center;
+}
+
+.footer .element{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.email{
+    text-decoration: none;
+    color: white;
+}
+
+.linkedin{
+    text-decoration: none;
+    color: white;
+}
+
+.linkedin:hover {
+    cursor: pointer;
+    color: #0077B5;
+}
