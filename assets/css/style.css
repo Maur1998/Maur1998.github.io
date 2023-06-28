@@ -12,9 +12,48 @@ body {
     background-color: white;
 }
 
+@media (prefers-color-scheme:dark){
+    body{
+        background-color: white;
+    }
+}
+/*About*/
+.about-me .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.about-me img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.about-me p{
+    width: 50%;
+}
+
+/*Portfolio*/
+.portfolio a{
+    text-decoration: underline;
+    color: black;
+    font-size: 2rem;
+}
+
+.portfolio a:hover{
+    color: blue;
+}
+
+/*Education*/
 .education .row {
     background-color: #14539a;
     list-style: none;
+}
+
+.education .header{
+    color: beige;
 }
 
 .list-item {
@@ -34,10 +73,12 @@ body {
     font-size: 3rem;
 }
 
+/*Experience*/
 .experience-header{
     font-size: 3em;
 }
 
+/*Footer*/
 .footer {
     background-color: #0d3562;
     line-height: 3em;
