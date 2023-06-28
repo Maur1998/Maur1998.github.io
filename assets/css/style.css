@@ -10,3 +10,16 @@
 .list-item {
     list-style: none;
 }
+
+.list-item h2 {
+    font-size: 2em;
+}
+
+.list-item p {
+    font-size: 2em;
+    color: darkgray;
+}
+
+.education .header{
+    font-size: 3em;
+}
