@@ -2,8 +2,18 @@
     margin: 0px;
     padding: 0px;
 }
+
+nav{
+    background-color: #184375;
+}
+
+
+body {
+    background-color: white;
+}
+
 .education .row {
-    background-color: rgb(49, 49, 48);
+    background-color: #14539a;
     list-style: none;
 }
 
@@ -17,7 +27,7 @@
 
 .list-item p {
     font-size: 1rem;
-    color: darkgray;
+    color: beige;
 }
 
 .education .header{
@@ -29,6 +39,7 @@
 }
 
 .footer {
+    background-color: #0d3562;
     line-height: 3em;
     color: white;
     text-align: center;
