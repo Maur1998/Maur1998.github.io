@@ -73,7 +73,7 @@ body {
     font-size: 3em;
 }
 
-.card{
+.experience .card{
     background-color: lightgray;
 }
 
@@ -112,4 +112,17 @@ body {
 .linkedin:hover {
     cursor: pointer;
     color: #0077B5;
+}
+
+/*Potfolio*/
+.portfolio-link{
+    color: black;
+}
+
+.return-to-cv:hover{
+    color: darkgray!important;
+}
+
+.portfolio-section a{
+    width: 50%;
 }
