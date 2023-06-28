@@ -8,8 +8,10 @@
     <link rel="icon" type="image/png" href="assets/img/icono.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</head>
+    <script src="https://kit.fontawesome.com/1817a2cc5e.js" crossorigin="anonymous"></script>
+  </head>
 <body>
+  <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="#">Navbar</a>
@@ -31,46 +33,133 @@
         </div>
       </div>
     </nav>
-
-    <section class="portfolio">
-      <a href="portfolio.html">Portfolio</a>
-    </section>
-
-    <section class="about-me">
-      <div class="container mt-4 text-center">
-        <img src="" alt="Photo1">
-        <p>
-          Mechatronic Engineer graduated from “Universidad Católica Boliviana” in La Paz, Bolivia, with interest in software development and artificial intelligence. 
-          With analytical work, strategic thinking, good judgement, common sense, and decision-making skills. Responsible and open to learning.
-        </p>
-      </div>
-    </section>
-
-    <section class="education text-white">
-      <div class="container-fluid mt-5">
-        <div class="row">
-          <h1 class="header text-center text-danger my-5">Education</h1>
-          <ul class="education-list text-center">
-            <li class="list-item">
-                <h2>JavaScript Full Stack Development.</h2>
-                <p>Full Stack development bootcamp - Desafío Latam <br/><strong>2023-Ongoing</strong></p>
-            </li>
-            <li class="list-item">
-                <h2>Master in Artificial Intelligence.</h2>
-                <p>"Universidad Internacional Isabel I de Castilla" – Spain.<br/><strong>2021-2022</strong></p>
-            </li>
-            <li class="list-item">
-                <h2>Mechatronic Engineer degree.</h2>
-                <p>"Universidad Católica Boliviana San Pablo" - Bolivia<br/><strong>2016-2021</strong></p>
-            </li>
-            <li class="list-item">
-                <h2>High school diploma.</h2>
-                <p>American Institure - Bolivia <br/><strong>2004-2015</strong></p>
-            </li>
-          </ul>
+    <!--Main section-->
+    <main>
+      <!--Portfolio-->
+      <section class="portfolio">
+        <a href="portfolio.html">Portfolio</a>
+      </section>
+      <!--About-->
+      <section class="about-me">
+        <div class="container mt-4 text-center">
+          <img src="" alt="Photo1">
+          <p>
+            Mechatronic Engineer graduated from “Universidad Católica Boliviana” in La Paz, Bolivia, with interest in software development and artificial intelligence. 
+            With analytical work, strategic thinking, good judgement, common sense, and decision-making skills. Responsible and open to learning.
+          </p>
         </div>
-      </div>
-    </section>
+      </section>
+      <!--Education-->
+      <section class="education text-white">
+        <div class="container-fluid mt-5">
+          <div class="row">
+            <h1 class="header text-center text-danger my-5">Education</h1>
+            <ul class="education-list text-center">
+              <li class="list-item">
+                  <h2>JavaScript Full Stack Development.</h2>
+                  <p>Full Stack development bootcamp - Desafío Latam <br/><strong>2023-Ongoing</strong></p>
+              </li>
+              <li class="list-item">
+                  <h2>Master in Artificial Intelligence.</h2>
+                  <p>"Universidad Internacional Isabel I de Castilla" – Spain.<br/><strong>2021-2022</strong></p>
+              </li>
+              <li class="list-item">
+                  <h2>Mechatronic Engineer degree.</h2>
+                  <p>"Universidad Católica Boliviana San Pablo" - Bolivia<br/><strong>2016-2021</strong></p>
+              </li>
+              <li class="list-item">
+                  <h2>High school diploma.</h2>
+                  <p>American Institure - Bolivia <br/><strong>2004-2015</strong></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--Experience-->
+      <section class="experience">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <h1 class="experience-header text-center mt-5">Experience</h1>
+            <div class="col-12 col-sm-6 col-md-4 mt-5 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 90%;">
+                <i class="fa-solid fa-brain mt-3 text-center fa-4x"></i>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Recommendation and prediction model – Master´s final project.</h5>
+                  <p class="card-text">Elaboration of a clustering model, a cosine distance matching system and training of a prediction model.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-5 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 90%;">
+                <i class="fa-solid fa-laptop-code mt-3 text-center fa-4x"></i>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Image assurance platform to prevent fake images spread – Senior project.</h5>
+                  <p class="card-text">Web application development using MERN stack and image matching system with Tensorflow Keras. – Universidad Católica Boliviana “San Pablo”.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-5 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 90%;">
+                <i class="fa-solid fa-code mt-3 text-center fa-4x"></i>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Web application development for fake news detection in electoral process – Internship.</h5>
+                  <p class="card-text">Web application for “web scraping” and “fact-checking” of digital news – Universidad Católica Boliviana “San Pablo”, Idea Internacional.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-5 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 90%;">
+                <i class="fa-solid fa-robot mt-3 text-center fa-4x"></i>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Robot with computer vision.</h5>
+                  <p class="card-text">Computer vision implementation in a robot to travel through a custom track autonomously.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-5 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 90%;">
+                <i class="fa-solid fa-leaf mt-3 text-center fa-4x"></i>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Automated Greenhouse.</h5>
+                  <p class="card-text">PID control system to automate the production of different crops such as lettuces and strawberries.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-5 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 90%;">
+                <i class="fa-regular fa-circle mt-3 text-center fa-4x"></i>
+                <div class="card-body">
+                  <h5 class="card-title text-center">“VOA Biología”.</h5>
+                  <p class="card-text">Augmented Reality application development for “San Calixto” school, which contains the visualization of a 3D cell model with its different parts. Scientific society of Mechatronic Engineering - Universidad Católica Boliviana</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-5 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 90%;">
+                <i class="fa-solid fa-gamepad mt-3 text-center fa-4x"></i>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Gamer Fest Viva.</h5>
+                  <p class="card-text">Presentation of the project “Videojuegos Orientados al Aprendizaje Biología”.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-5 d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 90%;">
+                <i class="fa-solid fa-helicopter mt-3 text-center fa-4x"></i>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Twin Rotor MIMO System.</h5>
+                  <p class="card-text">Development of a TRMS using PID control.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer mt-5">
+      AAAAAA
+    </footer>
 
 </body>
 </html>

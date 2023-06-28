@@ -12,14 +12,18 @@
 }
 
 .list-item h2 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .list-item p {
-    font-size: 2em;
+    font-size: 1rem;
     color: darkgray;
 }
 
 .education .header{
+    font-size: 3rem;
+}
+
+.experience-header{
     font-size: 3em;
 }
