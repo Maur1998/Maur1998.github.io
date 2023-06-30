@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="assets/img/icono.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1817a2cc5e.js" crossorigin="anonymous"></script>
@@ -27,6 +27,9 @@
               <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link text-white" href="#education">Education</a>
             </li>
             <li class="nav-item">
@@ -39,19 +42,35 @@
     <!--Main section-->
     <main>
       <!--About-->
-      <section class="about-me">
-        <div class="container mt-4 text-center">
-          <img class="mb-3" src="assets/img/foto.jpeg" alt="Photo1">
-          <p>
-            Mechatronic Engineer graduated from “Universidad Católica Boliviana” in La Paz, Bolivia, with a master in Artificial Intelligence. My main interest are 
-            software development and machine learning. With analytical work, strategic thinking, good judgement, common sense, and decision-making skills. 
-            Responsible and open to learning.
-          </p>
+      <section id="about">
+        <div class="about-me container my-4">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-sm-6 col-md-6 text-center">
+              <img class="mb-3 about-img" src="assets/img/foto.jpeg" alt="Photo1">
+            </div>
+            <div class="col2 col-12 col-sm-12 col-md-6">
+              <div class="about-element">
+                <h1 class="text-center">About me</h1>
+                <p class="text-center">
+                  Mechatronic Engineer graduated from “Universidad Católica Boliviana” in La Paz, Bolivia, with a master in Artificial Intelligence. My main interest are 
+                  software development and machine learning. With analytical work, strategic thinking, good judgement, common sense, and decision-making skills. 
+                  Responsible and open to learning.
+                </p>
+                <h1 class="text-center">Personal information</h1>
+                <ul>
+                  <li><strong class="strong">Name:</strong> Mauricio Javier Murillo Sanchez</li>
+                  <li><strong class="strong">Date of Birth:</strong> March 12, 1998</li>
+                  <li><strong class="strong">Country:</strong> Bolivia</li>
+                  <li><strong class="strong">Gender:</strong> Male</li>
+                </ul>
+              </div>
+              <!--Portfolio-->
+              <section class="portfolio text-center">
+                <a href="portfolio.html">Portfolio</a>
+              </section>
+            </div>
+          </div>
         </div>
-      </section>
-      <!--Portfolio-->
-      <section class="portfolio text-center">
-        <a href="portfolio.html">Portfolio</a>
       </section>
       <!--Education-->
       <section class="education text-white" id="education">
