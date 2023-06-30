@@ -86,11 +86,19 @@ body {
     color: lightgray;
 }
 
-
 /*Experience*/
 .experience-header{
     font-weight: 700;
     font-size: 4rem;
+}
+
+.experience .card {
+    border: solid #0077B5;
+}
+
+.experience .card:hover{
+    color: #0077B5;
+    border: none;
 }
 
 .card-title {
@@ -153,7 +161,8 @@ body {
 
 .portfolio-section h1{
     font-weight: 700;
-    color: #0077B5;;
+    color: #0077B5;
+    font-size: 3rem;
 }
 
 .portfolio-section a{
